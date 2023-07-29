@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TicTacToe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="tictacgame.js"></script>
+   
+</head>
+
+<body id="body-container" class="bg-dark">
+    <div class="container bg-light border border-warning border-5 mt-3">   
+        <h1 id="greeting" style="text-align: center;" class="mt-4" >Lets Play Tic Tac Toe!</h1>    
+        <p id="game-rules" class="container bg-light "style="text-align: center;"> 
+            Here are the rules! This is a two player game. It is played on a 3 by 3 grid.
+            Players 1 and 2 choose between being X's or O's. Players take turns putting 
+            their marks on their chosen square. First to get three marks in a row going 
+            in any direction wins! Lets play!
+        </p>
+       
+        
+        <br>
+        <br>
+    
+    <!--------------Game Grid-------------->
+        <div id="gameContainer" class="container">
+            <div cellId="0" class="cell" style="border-left: 0; border-top: 0;"> </div>
+            <div cellId="1" class="cell" style="border-top:0;"> </div>
+            <div cellId="2" class="cell" style="border-right: 0; border-top: 0;"> </div>
+            <div cellId="3" class="cell" style="border-left: 0;"> </div>
+            <div cellId="4" class="cell"> </div>
+            <div cellId="5" class="cell" style="border-right: 0;"> </div>
+            <div cellId="6" class="cell" style="border-left: 0; border-bottom: 0;"> </div>
+            <div cellId="7" class="cell" style="border-bottom: 0;"> </div>
+            <div cellId="8" class="cell" style="border-right: 0; border-bottom: 0;"> </div>           
+        </div>
+        <br>
+        <h2 id="playersTurn">playing</h2>
+    <button type="button" id="playAgain" class="btn btn-warning mt-3 mb-3">Let's Play Again!</button>
+    
+    </div>
+
+ <script src="node_modules/jquery/dist/jquery.js"></script>
+ <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 4px solid;
+    font-size: 60px; 
+    color: black;
+}
+
+#greeting{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(243, 193, 10)
+}
+
+#gameContainer{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background-color: orange;
+    color: black;
+}
+
+#body-container{
+    text-align: center;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+
+
